@@ -1,0 +1,62 @@
+body {
+    font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
+    background-color: rgb(7, 47, 121);
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: chartreuse;
+}
+
+.filterTodo, .todoInput, .todoButton {
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 3px solid black;
+}
+
+.todoButton {
+    background-color: coral;
+}
+
+.todoButton:active {
+    box-shadow: 0 2px  rgb(83, 83, 81);
+    transform: translateY(3px);
+}
+
+
+.newDiv {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin-left: 25%;
+    margin-right: 25%;
+    line-height: 50px;
+}
+
+.newTaf {
+    flex: 0.5;
+    background-color: white;
+    border: 3px solid black
+}
+
+.validButton {
+    background-color: rgb(56, 206, 56);
+    padding: 15px;
+    border: 3px solid black;
+}
+
+.suppButton {
+    background-color: rgb(226, 13, 13);
+    border: 3px solid black;
+}
+
+.validButtonSecond {
+    text-decoration: line-through;
+    opacity: 0.3;
+}
+
